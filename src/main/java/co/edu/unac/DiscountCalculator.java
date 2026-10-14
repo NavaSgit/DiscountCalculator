@@ -9,6 +9,7 @@ public class DiscountCalculator {
 
         return amount - (amount * discount);
     }
+
     private void validateAmount(double amount) {
 
         if (amount <= 0) {
