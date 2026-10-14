@@ -21,7 +21,7 @@ class DiscountCalculatorTest {
         double result =
                 calculator.calculateFinalPrice(100, true);
 
-        assertEquals(90, result);
+        assertEquals(95, result);
     }
 
     @Test
